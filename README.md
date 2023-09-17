@@ -1,7 +1,8 @@
 # Rainder
 
 Well, this is implementation of rain simulation in terminal
-its very simple atm, depending on crossterm
+
+Its very simple atm, depending on crossterm
 
 doing it for practice rust crates;
 
