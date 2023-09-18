@@ -1,8 +1,8 @@
+use crossterm::{event, Result};
 use std::time::Duration;
-use crossterm::{Result, event};
 
 pub fn user_input() -> Result<bool> {
-    if event::poll(Duration::from_millis(50))? {
+    if event::poll(Duration::from_millis(80))? {
         match event::read()? {
             event::Event::Key(keyevent) => {
                 if keyevent
